@@ -7,7 +7,8 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 // Intercepta todas las URLs
-@WebFilter("/*") 
+// DESHABILITADO: Comentar la anotación WebFilter para evitar conflictos.
+// @WebFilter("/*") 
 public class CORSFilter implements Filter {
 
     // Origen permitido. Se usa la URL del frontend. 
